@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    /* width: 100vw; */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    user-select: none;
+    padding: 5px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    position: relative;
+    width: 99vw;
+    height: 98.5vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px rgb(179, 179, 179) solid;
+    border-radius: 1.5rem;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.347);
+    padding: 8px;
+}
+
+
+.wrapper {
+    width: 950px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: #003a60 solid 2px; */
+}
+
+.profileImg {
+    width: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.right h2 {
+    font-size: 5rem;
+    line-height: 1;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.right h4 {
+    font-size: 2rem;
+    line-height: 3;
+    background: linear-gradient(45deg, #2600ff, #0169ae, #003a60, #AED6F1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.main {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: 0 auto;
+    border: #003a60 solid 2px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.148);
+}
+.headline{
+    background-color: #003a60;
+    color: whitesmoke;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}
+
+td,
+th {
+    color: #003a60;
+    outline: #e3e3e3 solid 1px;
+    padding: 8px 20px;
+}
+
+.col1 {
+    width: 130px;
+}
+
+.col2 {
+    width: 550px;
+}
+
+.col3 {
+    width: 250px;
+}
